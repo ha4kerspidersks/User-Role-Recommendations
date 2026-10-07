@@ -1,0 +1,37 @@
+name: Bug Report
+description: Report an issue or bug in User-Role-Recommendations
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue in User-Role-Recommendations!
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of the bug.
+      placeholder: Describe what happened...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Provide reproduction steps or code snippet.
+      placeholder: |
+        1. Run 'role-recommendation mine ...'
+        2. Encounter error...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Info
+      description: Python version, OS, scikit-learn version, etc.
+      value: |
+        - Python: 3.10 / 3.11 / 3.12
+        - OS: macOS / Linux / Windows
+    validations:
+      required: true

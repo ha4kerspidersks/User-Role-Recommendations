@@ -1,0 +1,23 @@
+name: Feature Request
+description: Propose an enhancement or new identity governance algorithm
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a feature for User-Role-Recommendations!
+  - type: textarea
+    id: feature
+    attributes:
+      label: Feature Description
+      description: What capability would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Enterprise Use Case
+      description: How does this improve IAM role mining or least-privilege enforcement?
+    validations:
+      required: true

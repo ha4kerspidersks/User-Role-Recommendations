@@ -13,3 +13,6 @@ credentials.json
 secrets.json
 service-account*.json
 *.secret
+
+# OS metadata
+.DS_Store
